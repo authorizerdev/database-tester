@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  db:
+    container_name: scylla
+    image: scylladb/scylla
+    ports:
+      - 9042:9042
+  
+
